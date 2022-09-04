@@ -153,6 +153,7 @@ p {
     border: none;
     margin-top: 40px;
     font-weight: 500;
+    margin-bottom: 20px;
 }
 
 .btnn:hover {
@@ -242,7 +243,7 @@ p {
 
 .video video{
     width: 180%;
-    margin-left: -280px !important;
+    margin-left: -250px !important;
     margin-top: 30px;
 }
 
@@ -412,7 +413,7 @@ p {
 
 .video-2 video {
     width: 250%;
-    margin-left: -350px;
+    margin-left: -300px;
     margin-top: 30px;
 }
 
@@ -439,6 +440,7 @@ p {
     display: flex;
     overflow: auto;
     margin-top: 40px;
+    margin-bottom: 100px;
 }
 
 
@@ -528,6 +530,7 @@ p {
     border: 2px solid rgb(7, 48, 66);
     color: rgb(7, 48, 66);
     font-weight: 500;
+    margin-bottom: 20px;
 }
 
 .bt-6:hover {
@@ -542,11 +545,13 @@ p {
 }
 
 .bt-7 {
+    margin-bottom: 20px;
     padding: 10px 20px 10px 20px;
     border-radius: 30px;
     border: 2px solid rgb(7, 48, 66);
     color: rgb(7, 48, 66);
     font-weight: 500;
+    margin-top: 50px;
 }
 
 .bt-7:hover {
@@ -736,4 +741,25 @@ p {
     }
 }
 
+@media only screen and (max-width: 1433px) {
+    .video {
+        width: 110%;
+        margin-left: -80px;
+    }
+
+    .video-2 video {
+         width: 200%;
+    }
+}
+
+
+@media only screen and (max-width: 766px) {
+    .left {
+        width: 100%;
+    }
+    .text-2 {
+        width: 90%;
+        text-align: justify;
+    }
+}
 
